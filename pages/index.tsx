@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <div className="rounded-4xl w-84 h-72 mx-auto shadow-xl bg-white">
           <div className="bg-aliceGrey rounded-4xl flex items-center justify-center rounded-bl-none p-2 px-6 text-white h-5/15">
             <span className="leading-relaxed">
-              Follow Alice are the absolute best! I can't wait to go on another
+              Follow Alice are the absolute best! I can&apos;t wait to go on another
               adventure! ...
             </span>
           </div>

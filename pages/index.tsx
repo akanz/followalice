@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import marco from "../public/marco.avif";
+import marco from "../public/marco.png";
 import Star from "../public/Star.svg";
 import germany from "../public/germany.svg";
 
@@ -15,12 +15,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-3/5 mt-12 p-12 mx-auto">
-        <div className="rounded-4xl w-84 h-72 mx-auto shadow-xl bg-white">
+      <main className="md:w-3/5 p-4 mt-4 md:mt-12 md:p-12 mx-auto">
+        <div className="rounded-4xl max-w-84 h-72 mx-auto shadow-xl bg-white">
           <div className="bg-aliceGrey rounded-4xl flex items-center justify-center rounded-bl-none p-2 px-6 text-white h-5/15">
             <span className="leading-relaxed">
-              Follow Alice are the absolute best! I can&apos;t wait to go on another
-              adventure! ...
+              Follow Alice are the absolute best! I can&apos;t wait to go on
+              another adventure! ...
             </span>
           </div>
           <div className="bg-white flex h-4/15 rounded-4xl rounded-tr-none">
